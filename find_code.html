@@ -82,8 +82,8 @@
 
       vars = getUrlVars();
       if (vars) {
-        const urlList = ['https://hyun98.github.io/Project_AlgoStudy/study/1팀/', 'https://hyun98.github.io/Project_AlgoStudy/study/2팀/',
-                       'https://hyun98.github.io/Project_AlgoStudy/study/3팀/'];
+        const urlList = ['https://hyun98.github.io/Project_AlgoStudy/study/team1/', 'https://hyun98.github.io/Project_AlgoStudy/study/team2/',
+                       'https://hyun98.github.io/Project_AlgoStudy/study/team3/'];
 
         urlList.forEach(targetUrl => fetchTarget(vars, targetUrl));
       } // if
@@ -91,7 +91,7 @@
     }); // ready()
 
     async function fetchTarget(vars, targetUrl) {
-        // https://nuung.github.io/IT-DA-3rd/study/ + Ace / C++1 / C++2 / JAVA1 / JAVA2 / Python
+        // https://hyun98.github.io/Project_AlgoStudy/study/ + team1 / team2 / team3 /
         // Week1 ~ 9 + BOJ_ + vars.number + _ + vars.name + .java / .cpp / .py
 
         const langu = [".java", ".cpp", ".py"];
