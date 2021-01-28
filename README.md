@@ -8,7 +8,7 @@
 
 <div align = "center">
 
-[Code Finder](https://rurril.github.io/IT-DA-3rd/)
+[Code Finder](https://rurril.github.io/Project_AlgoStudy/)
 
 </div>
 
