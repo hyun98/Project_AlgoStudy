@@ -102,7 +102,7 @@
             // fetch main
             let response = await fetch(url);
             if (response.ok) { // HTTP 상태 코드가 200~299일 경우
-              const result = await response.text(charset=utf-8);
+              const result = await response.text();
               const hideDisplay = document.querySelector('.loading');
               const goGitBtn = document.querySelector('#gogit__btn');
 
