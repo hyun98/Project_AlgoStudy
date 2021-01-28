@@ -57,15 +57,15 @@
 
 ### :star: team1
 
-> 'a'  'b'
+> `a` `b`
 
 ### :musical_note: team2
 
-> 'c'  'd'
+> `c` `d`
 
 ### 💛 team3
 
-> 'e'  'f'
+> `e` `f`
 
 
 
