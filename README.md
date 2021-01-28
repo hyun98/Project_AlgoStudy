@@ -34,7 +34,7 @@
 ## 📅 스터디 진행
 
 ### 1주차 - **`브루트 포스(완전탐색)`** 
-> **[BOJ_123](https://www.acmicpc.net/problem/1000)** [BOJ_1234](https://www.acmicpc.net/problem/1000)
+> [BOJ_123](https://www.acmicpc.net/problem/1000) [BOJ_1234](https://www.acmicpc.net/problem/1000)
 ---
 
 ### 2주차 - **`분할 정복`**
