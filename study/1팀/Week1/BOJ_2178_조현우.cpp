@@ -9,10 +9,10 @@ struct P{
 //한글 테스트 입니다.
 //한글 테스트 입니다.//한글 테스트 입니다.
 //한글 테스트 입니다.//한글 테스트 입니다.
-int N, M, Maze[101][101], depth[101][101];
-bool check[101][101];
+int N, M, Maze[101][101], depth[101][101];  ////한글 테스트 입니다.
+bool check[101][101];//한글 테스트 입니다.
 
-void range(int r, int c, int row, int col, queue<P> &que){
+void range(int r, int c, int row, int col, queue<P> &que){//한글 테스트 입니다.
     if(Maze[r][c] == 0) return;
     if(check[r][c]) return;
     if(r < 1 || r > N) return;
