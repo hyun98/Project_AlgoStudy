@@ -9,8 +9,12 @@
 <body>
     <div class="container">
 
+        <a href="../../index.html">
+            <div class="home"></div>
+        </a>
+
         <div class="header">
-            <span class="title">🎉How To Use Github🎉</span>
+            <span class="title">📖How To Use Github📖</span>
         </div>
 
         <ul class="howto__list">
@@ -24,24 +28,148 @@
                     링크로 들어간후 Downloads 클릭
                 </span>
             </li>
-
             <li class="howto__list--item">
                 <div class="list--item--img" style="background: url(./src/img/2.PNG);"></div>
                 <span class="list--item--text">각자 OS에 맞게 선택후 설치</span>
             </li>
-
             <li class="howto__list--item">
-                <div class="list--item--img" style="background: url(./src/img/3.PNG); background-size: 50% !important; background-position: center;"></div>
-                <span class="list--item--text">NEXT 클릭!</span>
+                <div class="list--item--img small" style="background: url(./src/img/3.PNG);"></div>
+                <span class="list--item--text">
+                    깃 설치후 터미널 창에서 <span class="highlight">git version</span><br>
+                    입력 후 위와 같이 버전이 나온다면 설치 성공!
+                </span>
             </li>
 
+            
             <li class="howto__list--item">
-                <div class="list--item--img" style="background: url(./src/img/4.PNG); background-size: 50% !important; background-position: center;"></div>
-                <span class="list--item--text">각자의 설정에 맞게 선택 후 NEXT 클릭!</span>
+                <span class="list--item--title">2. 깃허브 계정 만들기</span>
+                <div class="list--item--img" style="background: url(./src/img/4.PNG);"></div>
+                <span class="list--item--text">
+                    이 
+                    <a href="https://github.com/" target="_blank" style="font-size: 20px; font-weight: 600;">GitHub 바로가기</a>
+                    링크로 들어간후 Sign up 클릭
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/5.PNG);"></div>
+                <span class="list--item--text">계정을 생성 해줍니다</span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/6.PNG);"></div>
+                <span class="list--item--text">일단 Skip this for now 클릭!</span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/7.PNG);"></div>
+                <span class="list--item--text">이 창 까지 오시면 성공 한 것 입니다!</span>
+            </li>
+
+
+            <li class="howto__list--item">
+                <span class="list--item--title">2. 깃허브 repository 생성 및 파일 업로드</span>
+                <div class="list--item--img" style="background: url(./src/img/8.PNG);"></div>
+                <span class="list--item--text">
+                    create repository 클릭!
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/9.PNG);"></div>
+                <span class="list--item--text">
+                    Repository name 설정후 바로 Create repository 클릭!
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/10.PNG);"></div>
+                <span class="list--item--text">
+                    이 창 까지 오시면 잠시 멈추시고
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/11.PNG);"></div>
+                <span class="list--item--text">
+                    아무 폴더나 생성 후 생성한 파일에 들어갑니다
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/12.PNG);"></div>
+                <span class="list--item--text">
+                    파일 경로창 클릭후 cmd 입력을 하면 <br> 
+                    해당 경로를 시작으로 하는 터미널이 나타납니다.
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/13.PNG);"></div>
+                <span class="list--item--text">
+                    열린 터미널 창에 <span class="highlight">git init</span> 입력 후 엔터!
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/14.PNG);"></div>
+                <span class="list--item--text">
+                    폴더에 아무 파일이나 생성!
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/15.PNG);"></div>
+                <span class="list--item--text">
+                    <span class="highlight">git add *</span> 입력 후 엔터
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/16.PNG);"></div>
+                <span class="list--item--text">
+                    <span class="highlight">git commit -m "원하는 메시지 입력"</span> 입력 후 엔터<br>
+                    처음 하신 분 들은 위와 같이 나오시는게 정상입니다.
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/17.PNG);"></div>
+                <span class="list--item--text">
+                    <span class="highlight">git config --global user.email "깃허브 가입한 이메일"</span> 입력 후 엔터<br>
+                    <span class="highlight">git config --global user.name "깃허브 이름"</span> 입력 후 엔터<br>
+                    다시 <span class="highlight">git commit -m "원하는 메시지 입력"</span> 입력 후 엔터<br>
+                    위와 같이 나오면 성공 한 것입니다. 
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/18.PNG); background-size: 150% !important;"></div>
+                <span class="list--item--text">
+                    repository 로 돌아간 후 위 사진과 동일한 라인의 명령어 복사 <br>
+                    <span class="highlight">git remote add origin https://github.com/"자신의_이름"/"repository이름".git</span>
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/19.PNG);"></div>
+                <span class="list--item--text">
+                    복사한 명령어 터미널에 붙여넣기 후 엔터<br>
+                    <span class="highlight">git remote add origin https://github.com/"자신의_이름"/"repository이름".git</span>
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/20.PNG);"></div>
+                <span class="list--item--text">
+                    터미널에 <span class="highlight">git push origin master</span> 입력 후 엔터<br>
+                    처음 하시면 깃허브의 이메일(Username)과 password를 입력하라고 뜹니다. <br>
+                    입력후 엔터를 치시면 됩니다. 위와 같은 결과이면 성공!
+                </span>
+            </li>
+            <li class="howto__list--item">
+                <div class="list--item--img" style="background: url(./src/img/21.PNG);"></div>
+                <span class="list--item--text">
+                    이제 만들어 두었던 repository에 들어가면 <br>
+                    저희가 폴더에 만들었던 파일들이 repository에 올라가 있을 것 입니다! <br> 
+                </span>
             </li>
 
         </ul>
 
+        <div class="footer">
+            <div class="foot__info">
+                <span class="foot__info--title">🎉축하합니다!🎉</span><br>
+                <span class="foot__info--text">기본적인 깃과 깃 허브의 사용법을 배우셨습니다!</span><br>
+                <span class="foot__info--author">Made by Won</span>
+            </div>
+            <a href="../../index.html">메인 화면으로 돌아가기</a>
+        </div>
 
     </div>
 </body>
