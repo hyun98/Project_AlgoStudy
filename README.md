@@ -44,7 +44,7 @@
 
 ## 🙋 깃허브 올리는 방법
 
-- 
+- 깃 허브가 처음이신 분들을 위한 [튜토리얼](https://github.com/hyun98/Project_AlgoStudy/tree/master/how_to/github/index.html) 입니다
 
 ---
 
