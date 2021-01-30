@@ -39,7 +39,7 @@ a:hover{color: rgb(99, 99, 99);}
 .title{
     display: block;
     margin: auto;
-    font-size: 50px;    
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
@@ -82,6 +82,10 @@ a:hover{color: rgb(99, 99, 99);}
     margin-bottom: 100px;
 }.highlight{color: coral;}
 
+.list--item--text a{
+  text-decoration:none;
+}
+
 .list--item--img{
     display: block;
     margin: auto;
@@ -97,13 +101,14 @@ a:hover{color: rgb(99, 99, 99);}
 .footer{
     text-align: center;
     width: 100%;
-    height: 600px;
+    height: 300px;
 }
 
 .foot__info{
     display: block;
     margin: auto;
-    margin-top: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 500px;
 }
 
