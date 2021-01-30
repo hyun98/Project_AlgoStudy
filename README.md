@@ -37,15 +37,16 @@
 
 ---
 
-## :chart_with_upwards_trend:알고리즘 공부에 대해서
+## :chart_with_upwards_trend:알고리즘 공부 시작하기
 - 좋은 길잡이가 될 수 있을거라 생각해서 정리해 보았습니다❗️
 > [여기](files/tips.md)를 눌러 읽을 수 있습니다
-
+<br>
+- [알고리즘 기본개념](files/basics.md)
 ---
 
 ## 🙋 깃허브 올리는 방법
 
-- 깃 허브가 처음이신 분들을 위한 [튜토리얼](https://hyun98.github.io/Project_AlgoStudy/how_to/github/index.html) 입니다
+- 깃 허브가 처음이신 분들을 위한 [튜토리얼](how_to/github/index.html) 입니다
 ---
 ## :file_folder: 폴더 설명
 - study : 알고리즘 문제를 풀고 본인의 코드를 업로드 하는 폴더
