@@ -55,13 +55,20 @@
   </head>
   <body>
     <div class="loading">
-      
+
     </div>
     <div class="gogit__container">
       <a id="gogit__btn" href="#">
         Go Git
       </a>
     </div>
+    <pre>
+      <div class="code-list">
+        <ul id="output">
+
+        </ul>
+      </div>
+    </pre>
     <pre>
       <code id="code-express"></code>
     </pre>
@@ -74,11 +81,14 @@
         const hashes = url.slice(url.indexOf("?") + 1).split("&");
         for (let i = 0; i < hashes.length; i++) {
           hash = hashes[i].split("=");
+          if(hash[1] == ""){
+            continue;
+          }
           vars.push(hash[0]);
           vars[hash[0]] = hash[1];
-        } // for
+        } // end for
         return vars;
-      } // getUrlVars()
+      } // end getUrlVars()
 
       vars = getUrlVars();
       if (vars) {
@@ -89,34 +99,77 @@
           ];
 
         urlList.forEach(targetUrl => fetchTarget(vars, targetUrl));
-      } // if
+      } // end if
       else alert("URL ERROR");
-    }); // ready()
+      // end else
+    }); // end ready()
+
+    function StudySearch(codelist, outputhtml, target){
+
+    }
 
     async function fetchTarget(vars, targetUrl) {
         // https://hyun98.github.io/Project_AlgoStudy/study/ + team1 / team2 / team3 /
         // Week1 ~ n + BOJ_ + vars.number + _ + vars.name + .java / .cpp / .py
 
+        var outputhtml = "";
+        var codelist = [];
         const langu = [".java", ".cpp", ".py"];
-        for (let i = 1; i <= 20; i++) {
-          const temp = targetUrl + "Week" + i + "/BOJ_" + vars.number + "_" + vars.name;
-          for (let j = 0; j < 3; j++) {
-            const url = temp + langu[j];
-            // fetch main
-            let response = await fetch(url);
-            if (response.ok) { // HTTP 상태 코드가 200~299일 경우
-              const result = await response.text();
-              const hideDisplay = document.querySelector('.loading');
-              const goGitBtn = document.querySelector('#gogit__btn');
+        const temp = targetUrl + "Week" + i;
+        var fs = require('fs');
+        fs.readdir(test, function(error, filelist){
+          console.log(filelist);
+        })
 
-              hideDisplay.classList.remove('loading');
-              hideDisplay.classList.add('hide');
-              goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
-              $('#code-express').text(result);
-              $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
-            }
-          } // for language
-        } // for week
+        if(vars.length == 1 && vars.name != ""){
+          for(var i = 1; i <= 10; i++){
+            const temp = targetUrl + "Week" + i + "/";
+            var fs = require('fs');
+            fs.readdir(temp, function(error, filelist){
+              filelist.forEach((item, j) => {
+                if(item.indexOf(vars.name) != -1){
+                  outputhtml += "<li>" + "<a herf='" + temp  + filelist + "'>" + filelist + "</a></li>";
+                } // end if
+              });
+            }) // end readdir
+            document.getElementById('output').innerHTML = outputhtml;
+          } // end for
+        }
+        else if(vars.length == 1 && vars.number != ""){
+          for(var i = 1; i <= 10; i++){
+            const temp = targetUrl + "Week" + i + "/";
+            var fs = require('fs');
+            fs.readdir(temp, function(error, filelist){
+              filelist.forEach((item, i) => {
+                if(item.indexOf(vars.number) != -1){
+                  outputhtml += "<li>" + "<a herf='" + temp  + filelist + "'>" + filelist + "</a></li>";
+                } // end if
+              });
+            }) // end readdir
+            document.getElementById('output').innerHTML = outputhtml;
+          } // end for
+        }
+        else{
+          for (let i = 1; i <= 20; i++) {
+            const temp = targetUrl + "Week" + i + "/BOJ_" + vars.number + "_" + vars.name;
+            for (let j = 0; j < 3; j++) {
+              const url = temp + langu[j];
+              // fetch main
+              let response = await fetch(url);
+              if (response.ok) { // HTTP 상태 코드가 200~299일 경우
+                const result = await response.text();
+                const hideDisplay = document.querySelector('.loading');
+                const goGitBtn = document.querySelector('#gogit__btn');
+
+                hideDisplay.classList.remove('loading');
+                hideDisplay.classList.add('hide');
+                goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
+                $('#code-express').text(result);
+                $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
+              }
+            } // for language
+          } // for week
+        } // end if
     }
   </script>
 </html>
