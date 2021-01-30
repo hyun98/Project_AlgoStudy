@@ -104,33 +104,43 @@
       // end else
     }); // end ready()
 
+    function ShowCode(url){
+      let response = await fetch(url);
+      if (response.ok) { // HTTP 상태 코드가 200~299일 경우
+        const result = await response.text();
+        const hideDisplay = document.querySelector('.loading');
+        const goGitBtn = document.querySelector('#gogit__btn');
+
+        hideDisplay.classList.remove('loading');
+        hideDisplay.classList.add('hide');
+        goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
+        $('#code-express').text(result);
+        $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
+        return true;
+      }
+    }
+
     async function fetchTarget(vars, targetUrl) {
         // https://hyun98.github.io/Project_AlgoStudy/study/ + team1 / team2 / team3 /
         // Week1 ~ n + BOJ_ + vars.number + _ + vars.name + .java / .cpp / .py
 
         var outputhtml = "";
-
+        var check = false;
         const temp = targetUrl + "Week" + i;
-        var fs = require('fs');
-        fs.readdir(temp, function(error, filelist){
-          console.log(filelist);
-        })
 
-        if(vars.length == 1 && vars.name != ""){
+        if(vars.number == "" && vars.name != ""){
           for(var i = 1; i <= 10; i++){
             const temp = targetUrl + "Week" + i + "/";
-            var fs = require('fs');
-            fs.readdir(temp, function(error, filelist){
-              filelist.forEach((item, j) => {
-                if(item.indexOf(vars.name) != -1){
-                  outputhtml += "<li>" + "<a herf='" + temp  + filelist + "'>" + filelist + "</a></li>";
-                } // end if
-              });
-            }) // end readdir
-            document.getElementById('output').innerHTML = outputhtml;
+            filelist.forEach((item, j) => {
+              if(item.indexOf(vars.name) != -1){
+                outputhtml += "<li>" + "<a herf='" + temp  + filelist + "'>" + filelist + "</a></li>";
+              } // end if
+            });
+
           } // end for
+          document.getElementById('output').innerHTML = outputhtml;
         }
-        else if(vars.length == 1 && vars.number != ""){
+        else if(vars.name == "" && vars.number != ""){
           for(var i = 1; i <= 10; i++){
             const temp = targetUrl + "Week" + i + "/";
             var fs = require('fs');
@@ -141,8 +151,9 @@
                 } // end if
               });
             }) // end readdir
-            document.getElementById('output').innerHTML = outputhtml;
+
           } // end for
+          document.getElementById('output').innerHTML = outputhtml;
         }
         else{
           const langu = [".java", ".cpp", ".py"];
@@ -151,20 +162,12 @@
             for (let j = 0; j < 3; j++) {
               const url = temp + langu[j];
               // fetch main
-              let response = await fetch(url);
-              if (response.ok) { // HTTP 상태 코드가 200~299일 경우
-                const result = await response.text();
-                const hideDisplay = document.querySelector('.loading');
-                const goGitBtn = document.querySelector('#gogit__btn');
-
-                hideDisplay.classList.remove('loading');
-                hideDisplay.classList.add('hide');
-                goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
-                $('#code-express').text(result);
-                $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
+              if(ShowCode(url)){
+                check = true;
               }
-            } // for language
-          } // for week
+            } // end langu
+            if(check) break;
+          } // end week for
         } // end if
     }
   </script>
