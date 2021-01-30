@@ -44,10 +44,14 @@
 - [시간복잡도 wiki](https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B0%84_%EB%B3%B5%EC%9E%A1%EB%8F%84)
 
 ---
+<br>
 
-## 기본 정렬 및 알고리즘 공부 사이트
-> - [GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)는 영어로 되어있지만 페이지 번역을 통해 봐도 무방합니다. 알고리즘에 대한 설명이 정말 잘 되어있으며 알고리즘에 대한 예시코드들도 다양한 언어(c, c++, java, python)로 짜여있습니다<br>
+## :key: 알고리즘 이론을 공부하는데 참고하기 좋은 사이트 ☆
+ > - [BaaaaaaaarkingDog_Blog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)<br>
+ > - [동빈나_Blog](https://m.blog.naver.com/ndb796/221233570962)<br>
+ > - [Ries 마법의 슈퍼마리오_Blog](https://m.blog.naver.com/kks227/220769859177)<br>
+ > - [GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)는 영어로 되어있지만 페이지 번역을 통해 봐도 무방합니다. 알고리즘에 대한 설명이 정말 잘 되어있으며 알고리즘에 대한 예시코드들도 다양한 언어(c, c++, java, python)로 짜여있습니다<br>
 > - [VisuAlgo](https://visualgo.net/en) 알고리즘의 동작 방식을 애니매이션으로 시각화 해놓은 사이트 입니다. 그림으로 이해하는데 큰 도움이 될 수 있습니다.<br>
 > - [USF](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 위와 마찬가지로 공부하고자 하는 알고리즘이 목록에 있다면 이론보다 먼저 동작 방식을 보는게 훨씬 효율적일 수 있습니다.<br>
-
+ 
 ---
