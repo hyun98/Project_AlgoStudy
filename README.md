@@ -48,7 +48,7 @@
 
 ## 🙋 깃허브 올리는 방법
 
-- 깃 허브가 처음이신 분들을 위한 [튜토리얼](how_to/github/index.html) 입니다
+- 깃 허브가 처음이신 분들을 위한 [튜토리얼](https://github.com/hyun98/Project_AlgoStudy/blob/master/how_to/github/index.html) 입니다
 ---
 ## :file_folder: 폴더 설명
 - study : 알고리즘 문제를 풀고 본인의 코드를 업로드 하는 폴더
