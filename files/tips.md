@@ -31,15 +31,7 @@
 - 또한 풀이방법은 한 가지만 있는게 절대 아니니 다양한 방법을 찾아보는게 실력향상에 도움이 된다.
 
 ---
-<br>
 
-## :key: 알고리즘 이론을 공부하는데 참고하기 좋은 사이트 ☆
- > [BaaaaaaaarkingDog_Blog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)<br>
- > [동빈나_Blog](https://m.blog.naver.com/ndb796/221233570962)<br>
- >[Ries 마법의 슈퍼마리오](https://m.blog.naver.com/kks227/220769859177)<br>
- 
- 
----
 <br>
  
 
