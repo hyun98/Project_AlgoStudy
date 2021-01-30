@@ -19,9 +19,9 @@
 
 
 ## :key: 알고리즘 이론을 공부하는데 참고하기 좋은 사이트 ☆
- > [BaaaaaaaarkingDog_Blog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
- > [동빈나_Blog](https://m.blog.naver.com/ndb796/221233570962)
- >[Ries 마법의 슈퍼마리오](https://m.blog.naver.com/kks227/220769859177)
+ > [BaaaaaaaarkingDog_Blog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)<br>
+ > [동빈나_Blog](https://m.blog.naver.com/ndb796/221233570962)<br>
+ >[Ries 마법의 슈퍼마리오](https://m.blog.naver.com/kks227/220769859177)<br>
 
 ## :lock: 알고리즘에 더욱 관심이 간다면 읽어보면 좋은 사이트
 > [박트리](https://baactree.tistory.com/52)
