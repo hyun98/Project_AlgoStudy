@@ -94,22 +94,6 @@
       else alert("URL ERROR");
     }); // ready()
 
-    function ShowCode(response, i){
-      if (response.ok) { // HTTP 상태 코드가 200~299일 경우
-        const result = await response.text();
-        const hideDisplay = document.querySelector('.loading');
-        const goGitBtn = document.querySelector('#gogit__btn');
-
-        hideDisplay.classList.remove('loading');
-        hideDisplay.classList.add('hide');
-        goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
-        $('#code-express').text(result);
-        $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
-        return true;
-      }
-      return false;
-    }
-
     async function fetchTarget(vars, targetUrl) {
         // https://hyun98.github.io/Project_AlgoStudy/study/ + team1 / team2 / team3 /
         // Week1 ~ n + BOJ_ + vars.number + _ + vars.name + .java / .cpp / .py
@@ -121,7 +105,19 @@
             const url = temp + langu[j];
             // fetch main
             let response = await fetch(url);
-            check = ShowCode(response, i);
+            if (response.ok) { // HTTP 상태 코드가 200~299일 경우
+              const result = await response.text();
+              const hideDisplay = document.querySelector('.loading');
+              const goGitBtn = document.querySelector('#gogit__btn');
+
+              hideDisplay.classList.remove('loading');
+              hideDisplay.classList.add('hide');
+              goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
+              $('#code-express').text(result);
+              $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
+              check = true;
+              break;
+            }
           } // for language
           if(check) break;
         } // for week
