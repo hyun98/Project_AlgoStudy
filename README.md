@@ -26,7 +26,7 @@
 > 자세한 규칙은 [여기](files/rules.md)에서 확인 ❗️
 
 ---
-## [:bell: 공지사항](files/notices.md)
+## [:bell: 공지사항 및 활동로그](files/notices.md)
 ---
 
 ## 📅 스터디 진행
