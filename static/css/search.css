@@ -660,3 +660,18 @@ legend {
   font-family: 'GmarketSansMedium';
   transition: .3s;
 }
+
+.home{
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: url('../../how_to/github/src/ico/home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  margin-top: 20px;
+}
