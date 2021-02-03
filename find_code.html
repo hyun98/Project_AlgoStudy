@@ -6,6 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./static/js/find_code.js"></script>
     <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="icon" href="./static/images/favicon.ico">
+    <title> code </title>
     <style>
       .loading {
         width: 100vw;
@@ -67,6 +69,7 @@
     </pre>
   </body>
   <script>
+    document.title = "BOJ_";
     let vars = [], hash;
     var check = false;
     $(document).ready(function () {
@@ -113,6 +116,7 @@
               hideDisplay.classList.remove('loading');
               hideDisplay.classList.add('hide');
               goGitBtn.href = "https://github.com/hyun98/Project_AlgoStudy/blob/master/study" + url.split("study")[1];
+              document.title = "BOJ_" + vars.number + "_" + vars.name + langu[j];
               $('#code-express').text(result);
               $('pre code').each(function(i, block) { hljs.highlightBlock(block); });
               check = true;
