@@ -31,11 +31,11 @@
 ## 📅 스터디 진행
 
 ### 1주차 - **`브루트 포스(완전탐색)`** 
-> [test_1](https://www.acmicpc.net/problem/1000) [test_2](https://www.acmicpc.net/problem/1000)
+> [BOJ_블랙잭_2798](https://www.acmicpc.net/problem/2798) [BOJ_퇴사_14501](https://www.acmicpc.net/problem/14501) [BOJ_분해합_2231](https://www.acmicpc.net/problem/2231)
 
 
 ### 2주차 - **`분할 정복`**
->[test_3](https://www.acmicpc.net/problem/1000)
+>
 
 ---
 
