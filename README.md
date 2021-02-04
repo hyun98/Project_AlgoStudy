@@ -31,7 +31,7 @@
 ## 📅 스터디 진행
 
 ### 1주차 - **`브루트 포스(완전탐색)`** 
-> [BOJ_블랙잭_2798](https://www.acmicpc.net/problem/2798) [BOJ_퇴사_14501](https://www.acmicpc.net/problem/14501) [BOJ_분해합_2231](https://www.acmicpc.net/problem/2231)
+> [BOJ_블랙잭_2798](https://www.acmicpc.net/problem/2798) | [BOJ_퇴사_14501](https://www.acmicpc.net/problem/14501) | [BOJ_분해합_2231](https://www.acmicpc.net/problem/2231)
 
 
 ### 2주차 - **`분할 정복`**
