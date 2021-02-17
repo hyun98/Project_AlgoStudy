@@ -34,8 +34,8 @@
 > [BOJ_블랙잭_2798](https://www.acmicpc.net/problem/2798) | [BOJ_퇴사_14501](https://www.acmicpc.net/problem/14501) | [BOJ_분해합_2231](https://www.acmicpc.net/problem/2231)
 
 
-### 2주차 - **``**
->
+### 2주차 - **`브루트 포스(완전탐색), 재귀 기본`**
+> [BOJ 외판원 순회 2](https://www.acmicpc.net/problem/10971) | [BOJ 테트로미노 14500](https://www.acmicpc.net/problem/14500) |(재귀 기본) [BOJ 하노이 탑 이동 순서 11729](https://www.acmicpc.net/problem/11729)
 
 ### 3주차 - **``**
 >
