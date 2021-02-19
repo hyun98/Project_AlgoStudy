@@ -1,17 +1,22 @@
 # 2798 블랙잭
 from itertools import combinations as cb
 from random import randint as ri
+import time
 
 N = int(input("카드의 개수 : "))
+
+start = time.time()
 M = ri(3,100000) # 랜덤 수
 print(M)
 cardnum = [] # 카드의 값
 
-# 카드의 값이 중복되지 않게 하려면 ? -> while사용
-
-for i in range(N):
-    if i not in cardnum:
+k = 0
+while k < N:
+    if cardnum[k] not in cardnum:
         cardnum.append(ri(3,100000)) # N개의 카드 생성
+        k += 1
+    else:
+        continue
 print(cardnum)
 
 close = 0 # 가장 가까운 값 저장하는 변수
