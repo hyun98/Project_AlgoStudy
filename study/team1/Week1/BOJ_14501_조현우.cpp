@@ -10,7 +10,7 @@ void input(){
     }
 }
 
-// dynamic programming bottom-up style O(N^2)
+// O(N^2)
 void solve1(){
     int result = 0;
     for(int i = 0; i < N; i++){
@@ -26,7 +26,7 @@ void solve1(){
     cout << result;
 }
 
-// dynamic programming top-down style O(N^2)
+// top-down style O(N^2)
 int solve2(int day){
     if(day + Ti[day] > N) return 0;
     if(day + Ti[day] == N) return Pi[day];
