@@ -49,8 +49,7 @@ def DFS(i,j):
                     break #필드 내에 없으면 break
                 result+= board[si][sj] #해당 값을 합계에 저장
                 max_result = max(result, max_result)
-                '''if result > max_result:
-                    max_result = result''' #최대값인지 비교후 최대값 저장 
+                #최대값인지 비교후 최대값 저장 
             si, sj = i , j #[i,j초기화]
 
 #solve
