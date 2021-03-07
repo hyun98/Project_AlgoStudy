@@ -37,8 +37,8 @@
 ### 2주차 - **`브루트 포스(완전탐색), 재귀 기본`**
 > [BOJ 외판원 순회 2](https://www.acmicpc.net/problem/10971) | [BOJ 테트로미노 14500](https://www.acmicpc.net/problem/14500) |(재귀 기본) [BOJ 하노이 탑 이동 순서 11729](https://www.acmicpc.net/problem/11729)
 
-### 3주차 - **``**
->
+### 3주차 - **`분할정복`**
+> [BOJ 색종이 만들기 2630](https://www.acmicpc.net/problem/2630) | [BOJ 쿼드트리 1992](https://www.acmicpc.net/problem/1992) | [BOJ 곱셈 16290](https://www.acmicpc.net/problem/1629)
 
 ### 4주차 - **``**
 >
