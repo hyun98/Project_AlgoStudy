@@ -20,7 +20,8 @@ typedef struct pos
 void dfs(Pos pos, int count, int sum)
 {
 	check[pos.y][pos.x] = true;
-	if (count == 3)
+
+	if (count == 4)
 	{
 		answer = max(answer, sum);
 		check[pos.y][pos.x] = false;
@@ -40,8 +41,7 @@ void dfs(Pos pos, int count, int sum)
 		if (check[nextY][nextX] == true)
 			continue;
 
-		Pos tempPos = { nextY, nextX };
-		dfs(tempPos, count + 1, sum + map[nextY][nextX]);
+		dfs({ nextY, nextX }, count + 1, sum + map[nextY][nextX]);
 	}
 	check[pos.y][pos.x] = false;
 }
@@ -80,7 +80,9 @@ void Figure_exception(Pos pos)
 
 void solution(Pos pos)
 {
-	dfs(pos, 0, map[pos.y][pos.x]);
+	// (현재위치, count, 칸의 정수 값)
+	dfs(pos, 1, map[pos.y][pos.x]);
+	// dfs로 안되는 경우(ㅜ)
 	Figure_exception(pos);
 }
 
@@ -91,6 +93,7 @@ int main()
 
 	// 첫째 줄에 종이의 세로 크기 N과 가로 크기 M이 주어진다. (4 ≤ N, M ≤ 500)
 	cin >> N >> M;
+	// 1. vector<bool> v(M, false)로 초기화한 벡터를 N번 만큼의 반복을 통해 push한다.
 	for (int i = 0; i < N; i++)
 	{
 		vector<bool> v(M, false);
@@ -98,6 +101,7 @@ int main()
 	}
 
 	// 둘째 줄부터 N개의 줄에 종이에 쓰여 있는 수가 주어진다.
+	// 2. vector<int>(M, 0)을 N 번 반복해서 push 한다.
 	map.assign(N, vector<int>(M, 0));
 	for (int i = 0; i < N; i++)
 	{

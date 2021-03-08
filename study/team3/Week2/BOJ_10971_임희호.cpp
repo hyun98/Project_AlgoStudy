@@ -10,11 +10,15 @@ int answer = INT32_MAX;
 
 void DFS(int start, int from, int count, int sum)
 {
+	// 모든 도시를 방문했고
 	if (count == N-1)
 	{
+		// 마지막으로 방문한 도시에서 시작 도시로 갈 수 있는 길이 있다면
 		if (W[from][start] != 0)
 		{
+			// 그 길만큼의 비용을 더하고
 			sum += W[from][start];
+			// BFS 탐색 전체에서 가장 작은 값을 선택한다.
 			answer = min(answer, sum);
 		}
 		return;
@@ -41,7 +45,7 @@ void salesman_solution(int start)
 {
 	// 현재 노드를 체크하고
 	visit[start] = true;
-	// 깊이 탐색
+	// 깊이 탐색(시작지점, 현재도시, 도시 순회한 수, 비용)
 	DFS(start, start, 0, 0);
 	visit[start] = false;
 }
