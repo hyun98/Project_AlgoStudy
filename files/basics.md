@@ -53,5 +53,5 @@
  > - [GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)는 영어로 되어있지만 페이지 번역을 통해 봐도 무방합니다. 알고리즘에 대한 설명이 정말 잘 되어있으며 알고리즘에 대한 예시코드들도 다양한 언어(c, c++, java, python)로 짜여있습니다<br>
 > - [VisuAlgo](https://visualgo.net/en) 알고리즘의 동작 방식을 애니매이션으로 시각화 해놓은 사이트 입니다. 그림으로 이해하는데 큰 도움이 될 수 있습니다.<br>
 > - [USF](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 위와 마찬가지로 공부하고자 하는 알고리즘이 목록에 있다면 이론보다 먼저 동작 방식을 보는게 훨씬 효율적일 수 있습니다.<br>
- 
+> - [동적계획법의 개념부터 고급 문제풀이까지](https://web.archive.org/web/20150427205243/https://www.acmicpc.net/wiki/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%8F%99%EC%A0%81_%EA%B3%84%ED%9A%8D%EB%B2%95_-_dynamic_programming#folded_1)
 ---
