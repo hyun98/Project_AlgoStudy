@@ -43,7 +43,7 @@
 ### 4주차 - **`동적 계획법(1)`**
 > [BOJ 1로 만들기 1463](https://www.acmicpc.net/problem/1463) | [BOJ 2*n타일링 11726](https://www.acmicpc.net/problem/11726) | [BOJ 1,2,3 더하기 9095](https://www.acmicpc.net/problem/9095) | [BOJ 카드 구매하기 11052](https://www.acmicpc.net/problem/11052) | [BOJ 오르막 수 11057](https://www.acmicpc.net/problem/11057) 
 ---
-[동적 계획법 개념 설명](https://velog.io/@polynomeer/%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95Dynamic-Programming)
+[동적 계획법 개념 설명](https://velog.io/@polynomeer/%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95Dynamic-Programming)<br>
 [2*n타일링 문제들 설명](https://blog.naver.com/PostView.nhn?blogId=ndb796&logNo=221233586932&parentCategoryNo=&categoryNo=128&viewDate=&isShowPopularPosts=false&from=postView)
 ---
 > 분할정복 문제가 적어서 부족함을 느끼신 분들은 이 문제를 풀어보는걸 추천합니다 [BOJ 히스토그램 1725](https://www.acmicpc.net/problem/1725)
