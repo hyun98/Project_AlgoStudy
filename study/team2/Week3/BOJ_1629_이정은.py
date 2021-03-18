@@ -10,7 +10,7 @@ def pow_(a, b, c):
         return a%c
  
     elif b%2 == 0: #b가 짝수인경우
-        return pow_(a%c, b//2, c) **2%c #지수를 반토막내서 나머지 구하기
+        return pow_(a%c, b//2, c) **2 %c #지수를 반토막내서 나머지 구하기
 
     else:
         return (pow_(a, b-1, c) * a) % c
