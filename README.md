@@ -49,8 +49,8 @@
 > 분할정복 문제가 적어서 부족함을 느끼신 분들은 이 문제를 풀어보는걸 추천합니다 [BOJ 히스토그램 1725](https://www.acmicpc.net/problem/1725)
 
 ### 5주차 - **`동적 계획법(2)`**
-> [BOJ 가장 긴 증가하는 부분수열 11053](https://www.acmicpc.net/problem/11053) | [BOJ 연속 합 1912](https://www.acmicpc.net/problem/1912) | [BOJ 퇴사2 15486](https://www.acmicpc.net/problem/15486) | [BOJ 크리보드 11058](https://www.acmicpc.net/problem/11058)
-> 도전문제(선택사항 입니다) : [BOJ 뮤탈리스크 12869](https://www.acmicpc.net/problem/12869)
+> [BOJ 가장 긴 증가하는 부분수열 11053](https://www.acmicpc.net/problem/11053) | [BOJ 연속 합 1912](https://www.acmicpc.net/problem/1912) | [BOJ 퇴사2 15486](https://www.acmicpc.net/problem/15486) | [BOJ 크리보드 11058](https://www.acmicpc.net/problem/11058)<br>
+> 도전문제 : [BOJ 뮤탈리스크 12869](https://www.acmicpc.net/problem/12869)
 
 ### 6주차 - **``**
 >
