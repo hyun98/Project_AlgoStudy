@@ -9,7 +9,6 @@ int dp(int x){
     if(x == 2) return 2;
     if(x == 3) return 4;
     if(visit[x] != 0) return visit[x];
-     
     return visit[x] = dp(x-1) + dp(x-2) + dp(x-3);
 }
 
