@@ -1,0 +1,77 @@
+// BOJ_1912
+// 2796KB, 8ms
+/*
+n개의 정수로 이루어진 임의의 수열이 주어진다. 우리는 이 중 연속된 몇 개의 수를 선택해서 구할 수 있는 합 중 가장 큰 합을 구하려고 한다.
+
+단, 수는 한 개 이상 선택해야 한다.
+
+예를 들어서 10, -4, 3, 1, 5, 6, -35, 12, 21, -1 이라는 수열이 주어졌다고 하자. 여기서 정답은 12+21인 33이 정답이 된다.
+*/
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int N;
+int num[100001];
+int memory[100001] = { 0, };
+int answer = INT32_MIN;
+
+//void DP(int n)
+//{
+//	if (n == 1)
+//	{
+//		for (int i = 1; i <= N; i++)
+//		{
+//			memory[i] = num[i];
+//		}
+//		return;
+//	}
+//
+//	DP(n - 1);
+//
+//	for (int i = 1; i <= N - n + 1; i++)
+//	{
+//		answer = max(answer, memory[i]);
+//		memory[i] = memory[i] + num[n - 1 + i];
+//	}
+//}
+
+void DP(int n)
+{
+	if (n == 1)
+	{
+		for (int i = 1; i <= N; i++)
+		{
+			memory[i] = num[i];
+			answer = max(answer, memory[i]);
+		}
+	}
+
+	for (int i = 2; i <= N; i++)
+	{
+		memory[i] = max(num[i], memory[i-1] + num[i]);
+		answer = max(answer, memory[i]);
+	}
+}
+
+int main()
+{
+	cin.tie(NULL); cout.tie(NULL);
+	ios::sync_with_stdio(false);
+
+	// 첫째 줄에 정수 n(1 ≤ n ≤ 100,000)이 주어지고
+	cin >> N;
+
+	// 둘째 줄에는 n개의 정수로 이루어진 수열이 주어진다
+	for (int i = 1; i <= N; i++)
+		cin >> num[i];
+
+	// DP(N);
+	DP(1);
+
+	// 첫째 줄에 답을 출력한다.
+	cout << answer;
+
+	return 0;
+}
