@@ -2,7 +2,7 @@
 
 ---
 
-**팀장 : `조현우` `이승민` `허상원`**
+**팀장 : `조현우` `이정은`**
 
 
 <div align = "center">
@@ -52,7 +52,16 @@
 > [BOJ 가장 긴 증가하는 부분수열 11053](https://www.acmicpc.net/problem/11053) | [BOJ 연속 합 1912](https://www.acmicpc.net/problem/1912) | [BOJ 퇴사2 15486](https://www.acmicpc.net/problem/15486) | [BOJ 크리보드 11058](https://www.acmicpc.net/problem/11058)<br>
 > 도전문제 : [BOJ 뮤탈리스크 12869](https://www.acmicpc.net/problem/12869)
 
-### 6주차 - **``**
+---
+## 📅 스터디 진행방식 및 팀 변경
+
+*1팀 : solved.ac class 5 정복하기
+*2팀 : 
+
+### 6주차 **`1팀`**
+> [1로 만들기 2](https://www.acmicpc.net/problem/12852) | [다각형의 면적](https://www.acmicpc.net/problem/2166) | [용액](https://www.acmicpc.net/problem/2467) | [LCS 2](https://www.acmicpc.net/problem/9252)
+
+### 6주차 **`2팀`**
 >
 
 ### 7주차 - **``**
@@ -86,15 +95,12 @@
 
 ### :star: team1
 
-> `조현우` `김동건` `박시형`
+> `조현우` `류지환` `임희호`
 
 ### :musical_note: team2
 
-> `이승민` `서유정` `류지환` `이정은`
+> `이정은` `박재형` `박시형` `서유정`
 
-### 💛 team3
-
-> `허상원` `임희호` `박재형`
 
 
 
