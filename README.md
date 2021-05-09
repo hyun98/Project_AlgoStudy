@@ -65,8 +65,11 @@
 > [1강 . Arrays 배열 기초 강의](https://www.youtube.com/watch?v=tLG10WsVntI&list=PLDV-cCQnUlIYFOXYzqLoXnEye4WxDa_30) <br>
 > [문자열](https://www.acmicpc.net/problem/9086) | [단어뒤집기]( https://www.acmicpc.net/problem/9093) | [수열정렬](https://www.acmicpc.net/problem/1015)
 
-### 7주차 - **``**
->
+### 7주차 - **`1팀`**
+> [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [도시 분할 계획](https://www.acmicpc.net/problem/1647) | [부분 합](https://www.acmicpc.net/problem/1806) | [알파벳](https://www.acmicpc.net/problem/1987)
+
+### 7주차 - **`2팀`**
+> 
 
 ### 8주차 - **``**
 >
