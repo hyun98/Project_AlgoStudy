@@ -54,4 +54,5 @@
 > - [VisuAlgo](https://visualgo.net/en) 알고리즘의 동작 방식을 애니매이션으로 시각화 해놓은 사이트 입니다. 그림으로 이해하는데 큰 도움이 될 수 있습니다.<br>
 > - [USF](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 위와 마찬가지로 공부하고자 하는 알고리즘이 목록에 있다면 이론보다 먼저 동작 방식을 보는게 훨씬 효율적일 수 있습니다.<br>
 > - [동적계획법의 개념부터 고급 문제풀이까지](https://web.archive.org/web/20150427205243/https://www.acmicpc.net/wiki/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%8F%99%EC%A0%81_%EA%B3%84%ED%9A%8D%EB%B2%95_-_dynamic_programming#folded_1)
+> - [동적계획법에 유용한 메모이제이션 코드 패턴](https://chanhuiseok.github.io/posts/algo-51/) 동적계획법을 Top-down방식으로 구현할 때 중복된 함수 호출을 막기 위해 사용할 수 있는 코드 패턴입니다.
 ---
