@@ -69,7 +69,8 @@
 > [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [도시 분할 계획](https://www.acmicpc.net/problem/1647) | [부분 합](https://www.acmicpc.net/problem/1806) | [알파벳](https://www.acmicpc.net/problem/1987)
 
 ### 7주차 - **`2팀`**
-> 
+> [2강 . Stack](https://www.youtube.com/watch?v=eu9ttD-psU4&list=PLDV-cCQnUlIYQOb8_n-d-VPhl_X6cECjg) <br>
+> [PPAP](https://www.acmicpc.net/problem/16120) | [괄호의 값]( https://www.acmicpc.net/problem/2504) | [주몽](https://www.acmicpc.net/problem/1940)
 
 ### 8주차 - **``**
 >
