@@ -58,10 +58,11 @@
 * 1팀 : solved.ac class 5 정복하기 <br>
 * 2팀 : 코드없는 프로그래밍 <코딩테스트> 완강하기 <br>
 
-### 6주차 **`1팀`**
+### 6주차 
+**`1팀`**
 > [1로 만들기 2](https://www.acmicpc.net/problem/12852) | [다각형의 면적](https://www.acmicpc.net/problem/2166) | [용액](https://www.acmicpc.net/problem/2467) | [LCS 2](https://www.acmicpc.net/problem/9252)
 
-### 6주차 **`2팀`**
+ **`2팀`**
 > [1강 . Arrays 배열 기초 강의](https://www.youtube.com/watch?v=tLG10WsVntI&list=PLDV-cCQnUlIYFOXYzqLoXnEye4WxDa_30) <br>
 > [문자열](https://www.acmicpc.net/problem/9086) | [단어뒤집기]( https://www.acmicpc.net/problem/9093) | [수열정렬](https://www.acmicpc.net/problem/1015)
 
