@@ -66,17 +66,19 @@
 > [1강 . Arrays 배열 기초 강의](https://www.youtube.com/watch?v=tLG10WsVntI&list=PLDV-cCQnUlIYFOXYzqLoXnEye4WxDa_30) <br>
 > [문자열](https://www.acmicpc.net/problem/9086) | [단어뒤집기]( https://www.acmicpc.net/problem/9093) | [수열정렬](https://www.acmicpc.net/problem/1015)
 
-### 7주차 - **`1팀`**
+### 7주차
+**`1팀`**
 > [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [도시 분할 계획](https://www.acmicpc.net/problem/1647) | [부분 합](https://www.acmicpc.net/problem/1806) | [알파벳](https://www.acmicpc.net/problem/1987)
 
-### 7주차 - **`2팀`**
+**`2팀`**
 > [2강 . Stack](https://www.youtube.com/watch?v=eu9ttD-psU4&list=PLDV-cCQnUlIYQOb8_n-d-VPhl_X6cECjg) <br>
 > [PPAP](https://www.acmicpc.net/problem/16120) | [괄호의 값]( https://www.acmicpc.net/problem/2504) | [주몽](https://www.acmicpc.net/problem/1940)
 
-### 8주차 - **`1팀`**
+### 8주차
+**`1팀`**
 >[스도쿠](https://www.acmicpc.net/problem/2239) | [세 용액](https://www.acmicpc.net/problem/2473) | [별자리 만들기](https://www.acmicpc.net/problem/4386) | [텀 프로젝트](https://www.acmicpc.net/problem/9466)
 
-### 8주차 - **`2팀`**
+ **`2팀`**
 > 
 ---
 
