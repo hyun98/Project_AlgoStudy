@@ -72,8 +72,11 @@
 > [2강 . Stack](https://www.youtube.com/watch?v=eu9ttD-psU4&list=PLDV-cCQnUlIYQOb8_n-d-VPhl_X6cECjg) <br>
 > [PPAP](https://www.acmicpc.net/problem/16120) | [괄호의 값]( https://www.acmicpc.net/problem/2504) | [주몽](https://www.acmicpc.net/problem/1940)
 
-### 8주차 - **``**
->
+### 8주차 - **`1팀`**
+>[스도쿠](https://www.acmicpc.net/problem/2239) | [세 용액](https://www.acmicpc.net/problem/2473) | [별자리 만들기](https://www.acmicpc.net/problem/4386) | [텀 프로젝트](https://www.acmicpc.net/problem/9466)
+
+### 8주차 - **`2팀`**
+> 
 ---
 
 ## :chart_with_upwards_trend:알고리즘 공부 시작하기
