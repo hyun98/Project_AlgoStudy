@@ -58,7 +58,7 @@
 * 1팀 : solved.ac class 5 정복하기 <br>
 * 2팀 : 코드없는 프로그래밍 <코딩테스트> 완강하기 <br>
 
-### :money: 6주차 
+### 6주차 
 **`1팀`**
 > [1로 만들기 2](https://www.acmicpc.net/problem/12852) | [다각형의 면적](https://www.acmicpc.net/problem/2166) | [용액](https://www.acmicpc.net/problem/2467) | [LCS 2](https://www.acmicpc.net/problem/9252)
 
