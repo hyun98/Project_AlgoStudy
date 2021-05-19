@@ -79,7 +79,9 @@
 >[스도쿠](https://www.acmicpc.net/problem/2239) | [세 용액](https://www.acmicpc.net/problem/2473) | [별자리 만들기](https://www.acmicpc.net/problem/4386) | [텀 프로젝트](https://www.acmicpc.net/problem/9466)
 
  **`2팀`**
-> 
+> [3강 . 다이나믹프로그래밍](https://www.youtube.com/watch?v=eJC2oetXaNk) <br>
+> [타일장식물](https://www.acmicpc.net/problem/13301) | [설탕배달]( https://www.acmicpc.net/problem/2839) | [막대기](https://www.acmicpc.net/problem/17608) | 협력과제 . [쉬운 계단 수](https://www.acmicpc.net/problem/10844)
+
 ---
 
 ## :chart_with_upwards_trend:알고리즘 공부 시작하기
