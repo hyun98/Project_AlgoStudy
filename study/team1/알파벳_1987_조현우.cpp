@@ -6,13 +6,14 @@ int R, C, result = 0, cnt = 0;
 char board[21][21];
 int dr[4]={-1, 0, 1, 0};
 int dc[4]={0, 1, 0, -1};
-bool visited[21][21];
-bool alpha[30];
+bool visited[21][21];   // 현재 루트에서 방문한 칸 체크
+bool alpha[30]; // 지금까지 지나온 알파벳 체크
 
 void DFS(int r, int c){
-    
+    // 현재 말이 위치한 칸
     char now = board[r][c];
     
+    // 현재 알파벳을 이미 봤으면 돌아간다
     if(alpha[now - 'A']) return;
     
     alpha[now-'A'] = true;
