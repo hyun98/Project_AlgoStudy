@@ -87,7 +87,9 @@
 >[RGB거리2](https://www.acmicpc.net/problem/17404) | [사이클 게임](https://www.acmicpc.net/problem/20040) | [ACM Craft](https://www.acmicpc.net/problem/1005) | [소수의 연속합](https://www.acmicpc.net/problem/1644)
 
  **`2팀`**
-> 
+> [다이나믹프로그래밍 2회차](https://www.youtube.com/watch?v=eJC2oetXaNk) <br>
+> [제곱수의 합](https://www.acmicpc.net/problem/1699) | [동전 2](https://www.acmicpc.net/problem/2294) | [자두나무](https://www.acmicpc.net/problem/2240) | 협력과제. [가장 긴 증가하는 부분수열 4](https://www.acmicpc.net/problem/14002)
+
 
 ### 10주차
 **`1팀`**
