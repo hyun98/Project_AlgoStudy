@@ -82,6 +82,26 @@
 > [3강 . 다이나믹프로그래밍](https://www.youtube.com/watch?v=eJC2oetXaNk) <br>
 > [타일장식물](https://www.acmicpc.net/problem/13301) | [설탕배달]( https://www.acmicpc.net/problem/2839) | [막대기](https://www.acmicpc.net/problem/17608) | 협력과제 . [쉬운 계단 수](https://www.acmicpc.net/problem/10844)
 
+
+### 9주차
+**`1팀`**
+>[RGB거리2](https://www.acmicpc.net/problem/17404) | [사이클 게임](https://www.acmicpc.net/problem/20040) | [ACM Craft](https://www.acmicpc.net/problem/1005) | [소수의 연속합](https://www.acmicpc.net/problem/1644)
+
+ **`2팀`**
+> 
+
+### 10주차
+**`1팀`**
+>
+
+ **`2팀`**
+> 
+
+### 11주차
+**`1팀`**
+>
+ **`2팀`**
+> 
 ---
 
 ## :chart_with_upwards_trend:알고리즘 공부 시작하기
