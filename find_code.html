@@ -93,7 +93,9 @@
       if (vars) {
         const urlList = ['https://hyun98.github.io/Project_AlgoStudy/study/team1/',
             'https://hyun98.github.io/Project_AlgoStudy/study/team2/',
-            'https://hyun98.github.io/Project_AlgoStudy/study/team3/',
+            'https://hyun98.github.io/Project_AlgoStudy/study/2021.03-2021.04/team1',
+            'https://hyun98.github.io/Project_AlgoStudy/study/2021.03-2021.04/team2',
+            'https://hyun98.github.io/Project_AlgoStudy/study/2021.03-2021.04/team3',
 
           ];
 
@@ -106,10 +108,10 @@
         // https://hyun98.github.io/Project_AlgoStudy/study/ + team1 / team2 / team3 /
         // Week1 ~ n + BOJ_ + vars.number + _ + vars.name + .java / .cpp / .py
         if(check) return;
-        const langu = [".java", ".cpp", ".py"];
+        const langu = [".java", ".cpp", ".py", ".c"];
         for (let i = 1; i <= 20; i++) {
           const temp = targetUrl + "Week" + i + "/BOJ_" + vars.number + "_" + vars.name;
-          for (let j = 0; j < 3; j++) {
+          for (let j = 0; j < 4; j++) {
             const url = temp + langu[j];
             // fetch main
             let response = await fetch(url);
