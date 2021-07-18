@@ -90,19 +90,6 @@
 > [다이나믹프로그래밍 2회차](https://www.youtube.com/watch?v=eJC2oetXaNk) <br>
 > [제곱수의 합](https://www.acmicpc.net/problem/1699) | [동전 2](https://www.acmicpc.net/problem/2294) | [자두나무](https://www.acmicpc.net/problem/2240) | 협력과제. [가장 긴 증가하는 부분수열 4](https://www.acmicpc.net/problem/14002)
 
-
-### 10주차
-**`1팀`**
->
-
- **`2팀`**
-> 
-
-### 11주차
-**`1팀`**
->
- **`2팀`**
-> 
 ---
 
 ## :chart_with_upwards_trend:알고리즘 공부 시작하기
